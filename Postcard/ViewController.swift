@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be 	recreated.
     }
 
-
+//test commit again
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         ///add comment to test commit
         messageLabel.hidden = false
