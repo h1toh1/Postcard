@@ -61,6 +61,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxl-gC-UBc"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkV-hi-HZN">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="181" width="246" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="R9i-PT-L0c"/>
                                 <exclude reference="pFZ-CQ-jex"/>
                                 <exclude reference="JKO-mu-6ee"/>
+                                <exclude reference="NkV-hi-HZN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="R9i-PT-L0c"/>
                                 <include reference="pFZ-CQ-jex"/>
                                 <include reference="JKO-mu-6ee"/>
+                                <include reference="NkV-hi-HZN"/>
                             </mask>
                         </variation>
                     </view>
@@ -86,6 +97,7 @@
                         <outlet property="enterMessageTextField" destination="pFZ-CQ-jex" id="Cbv-by-rO5"/>
                         <outlet property="enterNameTestField" destination="R9i-PT-L0c" id="Hg6-jW-sH6"/>
                         <outlet property="messageLabel" destination="IV5-dQ-Pwf" id="OkP-Q6-aQP"/>
+                        <outlet property="newmessageLable" destination="NkV-hi-HZN" id="VxC-Zr-mqI"/>
                         <outlet property="sendButton" destination="JKO-mu-6ee" id="euj-Zx-8mD"/>
                     </connections>
                 </viewController>
